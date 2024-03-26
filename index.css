@@ -1,0 +1,32 @@
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    color: white;
+   }
+   .product {
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+    background-color: rgb(79, 78, 81);
+    border: 1px solid rgb(8, 8, 8);
+   }
+   .product img {
+    width: 100%;
+    height: 250px;
+   }
+#products-cart{
+    border: 5px solid rgb(0, 0, 0);
+    margin: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+.cart_item{
+    background-color: grey;
+    border: 2px solid black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 1px solid black;
+}
+   
